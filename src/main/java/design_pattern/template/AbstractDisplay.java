@@ -1,7 +1,7 @@
 package design_pattern.template;
 
 public abstract class AbstractDisplay {
-    void display() {
+    public final void display() {
         open();
         for (int i = 0; i < 5; i++) {
             print();
