@@ -1,5 +1,6 @@
 package design_pattern.template;
 
+
 public abstract class AbstractDisplay {
     public final void display() {
         open();
